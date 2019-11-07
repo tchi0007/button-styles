@@ -12,57 +12,57 @@ div {
   text-align: center;
 }
 
-a {
-  text-decoration: none;
-}
-
 .btn {
-  display: inline;
+  display: inline-block;
   font-size: 1.125rem;
   color: #fff;
   background-color: #333;
-  padding: .4em;
-  border-width: 3px;
+  padding: .4em .75em .3em;
+  border: 3px solid #333;
   border-radius: 8px;
+  text-decoration: none;
 }
 
-.btn:hover{
+.btn:hover {
   background-color: #000;
 }
 
 .btn-subtle, .subtle-small, .subtle-big {
   background-color: #ccc;
+  border-color: #ccc;
 }
 
 .btn-subtle:hover, .subtle-small:hover, .subtle-big:hover {
   background-color: #666;
+  border-color: #666;
 }
 
 .btn-ghost, .ghost-small, .ghost-big {
   color: #000;
   background-color: #fff;
-  border: solid black;
+  border-color: #000;
 }
 
 .btn-ghost:hover, .ghost-small:hover, .ghost-big:hover {
   color: #fff;
   background-color: #666;
-  border: solid #666;
+  border-color: #666;
 }
+
 .btn-warning, .warning-small, .warning-big {
-background-color: #f33;
+  background-color: #f33;
+  border-color: #f33;
 }
 
 .btn-warning:hover, .warning-small:hover, .warning-big:hover {
   background-color: #933;
+  border-color: #933;
 }
 
 .btn-small {
   font-size: .875rem;
-  padding: .em;
 }
 
 .btn-big {
   font-size: 1.5rem;
-  button-padding: .75em;
 }
