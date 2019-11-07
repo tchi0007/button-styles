@@ -26,16 +26,52 @@ a {
   border-radius: 8px;
 }
 
+.btn-subtle, .subtle-small {
+  background-color: #ccc;
+}
+
+.btn-ghost, .ghost-small {
+  color: #000;
+  background-color: #fff;
+  border: solid black;
+}
+
+.btn-warning, .warning-small {
+background-color: #f33;
+}
+
+
+.btn-small {
+  font-size: .875rem;
+  padding: .3em;
+}
+
+.btn-big {
+  font-size: 1.5rem;
+  button-padding: .75em;
+}
+
+
+
+
+/* .btn {
+  display: inline;
+  font-size: 1.125rem;
+  color: #fff;
+  background-color: #333;
+  padding: .4em;
+  border-width: 3px;
+  border-radius: 8px;
+}
+
 .btn:hover {
   background-color: #000;
 }
 
 .btn-subtle {
-  display: inline;
   font-size: 1.125rem;
   color: #fff;
   background-color: #ccc;
-  padding: .4em;
   border-width: 3px;
   border-radius: 8px;
 }
@@ -73,16 +109,12 @@ a {
 
 .btn-warning:hover {
    background-color: #933;
-}
+} */
 
 /* s m a l l  b u t t o n s */
-
-.btn-small {
-  display: inline;
+/*
+.btn .btn-small {
   font-size: .875rem;
-  color: #fff;
-  background-color: #333;
-  padding: .75em;
   border-width: 3px;
   border-radius: 8px;
 }
@@ -131,4 +163,4 @@ a {
 
 .warning-small:hover {
    background-color: #933;
-}
+} */
