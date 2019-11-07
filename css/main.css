@@ -26,24 +26,40 @@ a {
   border-radius: 8px;
 }
 
-.btn-subtle, .subtle-small {
+.btn:hover{
+  background-color: #000;
+}
+
+.btn-subtle, .subtle-small, .subtle-big {
   background-color: #ccc;
 }
 
-.btn-ghost, .ghost-small {
+.btn-subtle:hover, .subtle-small:hover, .subtle-big:hover {
+  background-color: #666;
+}
+
+.btn-ghost, .ghost-small, .ghost-big {
   color: #000;
   background-color: #fff;
   border: solid black;
 }
 
-.btn-warning, .warning-small {
+.btn-ghost:hover, .ghost-small:hover, .ghost-big:hover {
+  color: #fff;
+  background-color: #666;
+  border: solid #666;
+}
+.btn-warning, .warning-small, .warning-big {
 background-color: #f33;
 }
 
+.btn-warning:hover, .warning-small:hover, .warning-big:hover {
+  background-color: #933;
+}
 
 .btn-small {
   font-size: .875rem;
-  padding: .3em;
+  padding: .em;
 }
 
 .btn-big {
